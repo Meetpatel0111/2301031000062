@@ -1,0 +1,95 @@
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c82323;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  height: auto;
+  padding: 150px;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 55px;
+  color: black;
+  background-color: green;
+  margin: 30px 200px;
+  border-radius: 12px;
+}
+
+/* Question Section */
+.question-section {
+  background-color: #47ebcd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Answer Options */
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.answer-btn1 {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  background-color: #daa324;
+  border: 1px solid black;
+  border-radius: 12px;
+
+}
+
+.answer-btn2 {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  background-color: rgb(51, 176, 51);
+  border: 1px solid black;
+  border-radius: 12px;
+
+}
+
+
+/* Next Page Button */
+.buttons {
+  margin-top: 30px;
+}
+
+.next-btn {
+  width: 300px;
+  padding: 20px;
+  font-size: 26px;
+  font-family: var(--font-irish);
+  color: white;
+  background-color: #c9712e;
+  border: none;
+  border-radius: 12px;
+
+}
+
+

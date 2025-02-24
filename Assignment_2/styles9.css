@@ -1,0 +1,38 @@
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c82323;
+}
+
+/* Container */
+.thank-you-container {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 200px;
+}
+
+/* Title */
+.thank-you-text {
+  padding: 20px 200px;
+  background-color: rgb(46, 39, 171);
+  font-size: 60px;
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 70px;
+}
+
+.restart-btn {
+  background-color: #47ebcd;
+  border: none;
+  padding: 20px 40px;
+  font-size: 28px;
+  color: black;
+  border-radius: 12px;
+}

@@ -1,0 +1,78 @@
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c82323;
+}
+
+/* Container */
+.container {
+  padding: 40px;
+}
+
+/* Title */
+.title {
+  font-size: 55px;
+  color: black;
+  background-color: green;
+  max-width: 400px;
+  border-radius: 12px;
+  padding-left: 5px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Text Section */
+.text-section {
+  width: 50%;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.text {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Image Section */
+.image-section {
+  width: 50%;
+  text-align: center;
+}
+
+.museum-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Button */
+.buttons {
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.btn {
+  background-color: rgb(101, 88, 219);
+  border: none;
+  padding: 15px 40px;
+  font-size: 24px;
+  font-family: var(--font-irish);
+  color: black;
+  border-radius: 8px;
+}

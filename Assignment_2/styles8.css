@@ -1,0 +1,85 @@
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c82323;
+}
+
+/* Container */
+.quiz-container {
+  width: 100%;
+  height: auto;
+  padding: 150px;
+  text-align: center;
+}
+
+/* Title */
+.quiz-title {
+  font-size: 55px;
+  color: black;
+  background-color: green;
+  margin: 30px 200px;
+  border-radius: 12px;
+}
+
+/* Question Box */
+.question-box {
+  background-color: #47ebcd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 28px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Answer Options */
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.answer-btn1 {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  background-color: rgba(247, 5, 5, 0.854);
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.answer-btn2 {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  background-color: #daa324;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.return-btn {
+  width: 280px;
+  margin-top: 30px;
+  padding: 18px;
+  font-size: 30px;
+  color: white;
+  background-color: #c9712e;
+  border: none;
+  border-radius: 12px;
+}
+
